@@ -1,0 +1,109 @@
+## **Ejercicio 1**
+
+Inicio
+
+Definir primero
+
+Definir segundo
+
+Definir intermedio
+
+Mostrar ‘Ingrese el primer numero’
+
+Pedir primero
+
+Mostrar ‘Ingrese el segundo numero’
+
+Pedir segundo
+
+Si (primero > segundo) entonces:
+
+Intermedio = primero
+
+primero = segundo
+
+segundo = intermedio
+
+FinSi
+
+Fin
+
+## **Ejercicio 2**
+
+Inicio
+
+Definir km_hora
+
+Definir  m_segundos
+
+Mostrar ‘Digite una velocidad en kilometros por hora (km/h)’
+
+Pedir km_hora
+
+m_segundos =  km_hora / 3.6
+
+Mostrar ‘El valor ‘ + km_hora + ‘, en m/s es igual a: ‘ + m_segundos
+
+Fin
+
+## **Ejercicio 3**
+
+Inicio
+
+Definir contador = 1
+
+Definir hombres = 0
+
+Definir mujeres = 0
+
+Definir intermedio
+
+Definir promedio_h
+
+Definir promedio_m
+
+Mostrar ‘Ingrese el sexo de 6 personas, como hombres (h) o mujeres (m):’
+
+Mientras que (contador <= 6) repetir:
+
+Mostrar ‘Ingrese el sexo de la persona ‘ + contador + ‘:’
+
+Pedir intermedio
+
+Si (intermedio = ‘m’) entonces:
+
+mujeres = mujeres + 1
+
+Sino
+
+Si (intermedio = ‘h’) entonces:
+
+hombres = hombres + 1
+
+Sino
+
+Mostrar ‘El valor ingresado no es valido’
+
+FinSi
+
+FinSi
+
+contador  = contador + 1
+
+FinMientras
+
+Si (hombres + mujeres = 6) entonces:
+
+porcentaje_m = (mujeres / 6 )* 100
+
+porcentaje_h = (hombres / 6) * 100
+
+Mostrar porcentaje_m + ‘% mujeres y ‘ + porcentaje_h + ‘% hombres’
+
+Sino
+
+Mostrar ‘La cantidad ingresada fue incorrecta’
+
+FinSi
+
+Fin
