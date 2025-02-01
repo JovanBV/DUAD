@@ -1,0 +1,18 @@
+Método	Descripción
+read()	Lee y retorna todo el contenido del archivo
+readlines()	Lee todo el contenido del archivo y retorna una lista con cada línea.
+write()	Escribe contenidos en un archivo.
+close()	Cierra un archivo que esta abierto
+detach()	
+fileno()	Este devuelve un numero que la computadora le asigna a un archivo como identificador, lo que ayuda a ubicar mas sencillamente el archivo.
+flush()	Asegura que los datos por escribir en un archivo se guarden en este inmediatamente y liberen la memoria del bufer, evitando perdida de datos y rapidez con la que se escriben en el archivo
+isatty()	Esta muestra si el programa que se esta ejecutando esta en una terminal (True) o si la salida se redirige a un archivo (False), u otra salida.
+readable()	Devuelve True si un archivo es leible, o sea que se puede accesar, o False si no
+readline()	Lee la primer linea de un archivo
+readlines()	Lee una lista de lineas de un dado archivo
+seek()	Permite apuntar a una posicion en especifico para poder leer desde ese punto, con primer parametro (offset) el cuantos valores se mueve, que puede ser positivo o negativo; y el segundo (whence), desde donde se empieza.
+seekable()	Devuelve True si el archivo permite el uso de la funcion seek(), o sea, si se puede cambiar la posicion de la que se desea leer el archivo
+tell()	Muestra la ubicacion, con un numero identificador, del archivo
+truncate()	Recorta el archivo al tamano de su unico parametro
+writable()	Devuelve True si el archivo se puede modificar, y False si no
+writelines()	Es una funcion que permite agregar varias lineas de texto que son parte de una lista, por ende, su unico parametro es una lista de varias cadenas de texto

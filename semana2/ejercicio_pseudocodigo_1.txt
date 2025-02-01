@@ -1,0 +1,31 @@
+Ejercicio #1
+
+Inicio
+
+Definir precio_producto
+
+Definir descuento
+
+Definir precio_final
+
+
+
+Si (precio_producto >= 100)  entonces:
+
+descuento = 0.10
+
+Sino
+
+descuento = 0.02
+
+Finsi
+
+descuento = precio_producto * descuento
+
+precio_final = precio_producto – descuento
+
+Mostrar ‘El precio final del producto es: ‘
+
+Mostrar precio_final
+
+Fin 

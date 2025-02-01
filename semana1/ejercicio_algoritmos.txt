@@ -1,0 +1,72 @@
+Cree un algoritmo para ver un video en YouTube. Sea lo más específico posible: 
+Inicio 
+Verificar el teléfono 
+1. Si el teléfono está encendido: 
+1. Buscar la aplicación de YouTube 
+1. Abrir la app de YouTube 
+1. Si no: 
+• Encender el teléfono 
+• Volver a verificar el estado del teléfono 
+Seleccionar la barra de búsqueda 
+Escribir el título a buscar 
+Seleccionar uno entre las opciones que se despliegan 
+Reproducir el video 
+Mientras el video se esté reproduciendo: 
+1. Si el video termina: 
+1. Preguntarse: ¿Se va a ver otro video? 
+• Si sí: 
+1. Repetir el proceso desde el paso 3 
+• Si no: 
+• Salir de la app 
+Cerrar la app 
+Fin 
+ 
+ 
+Cree un algoritmo que describa su rutina diaria. Use condiciones, condiciones múltiples y ciclos. 
+Inicio 
+Levantarse 
+1. Despertar a las 5:00 AM 
+1. Si es fin de semana: 
+• Entonces: Dormir un poco más 
+Alimentar al gato 
+1. Colocar comida al gato 
+1. Llenar el tazón de agua 
+Prepararse para el trabajo 
+1. Desayunar 
+1. Organizar ropa 
+1. Si es un día importante: 
+• Vestirse adecuadamente 
+Trabajar  
+1. Sentarse frente a la computadora a las 7:00 AM 
+1. Mientras estoy trabajando: 
+1. Estudiar 
+1. Si hay una reunión: 
+• Asistir a la reunión en línea 
+1. Si es mediodía (12:00 PM): 
+1. Almorzar 
+1. Alimentar al gato  
+1. Si hay tiempo: 
+• Leer un capítulo de un libro 
+Terminar el trabajo 
+1. Finalizar la jornada laboral a las 4:00 PM 
+Después del trabajo 
+1. Hacer ejercicio 
+1. Si hay buen clima: 
+• Salir a correr 
+1. Si no: 
+• Hacer ejercicio en casa 
+1. Si es un día de limpieza: 
+1. Ordenar la casa 
+1. Cocinar la cena 
+Tiempo libre 
+1. Ver televisión  
+1. Si tengo una serie pendiente: 
+• Ver la serie. 
+Leer antes de dormir 
+1. Mientras haya tiempo antes de dormir: 
+1. Leer un libro 
+1. Si el libro es interesante: 
+• Continuar leyendo 
+Dormir 
+1. Acostarse a las 9:00 PM 
+Fin 

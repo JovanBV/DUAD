@@ -1,0 +1,21 @@
+Inicio
+
+Definir tiempo_en_segundos
+
+Definir tiempo_restante
+
+Mostrar ‘Ingrese un tiempo en segundos’
+
+Pedir tiempo_en_segundos
+
+Si (tiempo_en_segundos > 600)
+
+Mostrar ‘Mayor’
+
+Sino
+
+tiempo_restante = tiempo_en_segundos – 600
+
+FinSi
+
+Fin
