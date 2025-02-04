@@ -1,4 +1,12 @@
-import heapq
+import main1
+
+def validate_menu_option(option):
+    while True:
+        try: 
+            return int(option)
+        except ValueError:
+            option = input('Type a valid option from the menu: ')
+
 
 ''' Requests student information and returns a dictionary with the data. 
     Ensures grades are numeric and within the valid range. '''
@@ -27,6 +35,17 @@ class Student:
     def add_grade(self, subject, grade):
         for grades in self.student_subjects: 
             self.grades[subject] = grade
+
+
+
+def menu_options(option, students_list, student_headers, path):
+    match option:  
+        case 1: students_list.append(Student.add_grade('Jovan'))
+        case 2: actions1.show_all_data(students_list)
+        case 3: actions1.find_top_3_average(students_list)
+        case 4: actions1.calculate_avg_avg(students_list)
+        case 5: data1.export_csv_file(path, students_list, student_headers)
+        case 6: data1.import_csv_file(path, students_list)
 
 
 ''' Displays all students' information. '''
@@ -66,3 +85,23 @@ def calculate_avg_avg(students_list):
     students_avg = [float(student['Grades average']) for student in students_list]
     average = sum(students_avg) / len(students_avg)
     print(f'\nOverall average grade: {average:.2f}\n')
+
+
+
+def export_csv_file(path, students_list, student_headers):
+    with open(path, 'w') as file:
+        writer = csv.DictWriter(file, student_headers)
+        writer.writeheader()
+        writer.writerows(students_list)
+
+
+''' Imports student data from a CSV file and appends it to the list. '''
+def import_csv_file(path, students_list):
+    with open(path, 'r') as file:
+        reader = csv.DictReader(file)
+        rows = list(reader)
+        if not rows:
+            print("\nThere's no information to import\n")
+        for data in rows:
+            students_list.append(data)
+            
