@@ -3,7 +3,7 @@ import csv
 
 def main():
     students_list = []
-    path = 'C:/Users/jovan/Documents/DUAD/semana11/students_information.txt'
+    path = 'C:/Users/jovan/Documents/DUAD/semana11//students_information.txt'
     student_headers = ['Full name', 'Class section', 'Spanish grade', 'English grade', 
     'Social studies grade', 'Science grade', 'Grades average']
 
