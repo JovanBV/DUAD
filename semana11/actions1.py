@@ -1,22 +1,32 @@
 import heapq
 
-class Student:
-    def __init__(self, name, class_section, spanish_grade, english_grade, social_studies_grade, science_grade):
-        self.name = name
-        self.class_section = class_section
-        self.spanish_grade = spanish_grade
-        self.english_grade = english_grade
-        self.social_studies_grade = social_studies_grade
-        self.science_grade = science_grade
+''' Requests student information and returns a dictionary with the data. 
+    Ensures grades are numeric and within the valid range. '''
+def type_student_info(student_headers):
+    new_student = dict.fromkeys(student_headers)
+    for key in student_headers:
+        if key in student_headers[:2]:  # Full name & Class section
+            new_data = input(f'\nType the {key}: ')
+        elif key in student_headers[2:6]:  # Grades
+            new_data = validate_grades(input(f'\nType the {key}: '))
+        elif key == student_headers[6]:  # Grades average
+            student_grades = [new_student['Spanish grade'], new_student['English grade'], 
+                new_student['Social studies grade'], new_student['Science grade']]
+            new_data = sum(student_grades) / 4
+        new_student[key] = new_data
+    return new_student
 
-    def create_student(students_list):
-        name = input('Type the name of the student: ')
-        class_section = input('Type the class were the student belonges: ')
-        spanish_grade = validate_grades(input('Type the students spanish grade: '))
-        english_grade = validate_grades(input('Type the students english grade: '))
-        social_studies_grade = validate_grades(input('Type the students social studies grade: '))
-        science_grade = validate_grades(input('Type the students sciencie grade: '))
-        students_list.append(Student(name, class_section, spanish_grade, english_grade, social_studies_grade, science_grade))
+
+class Student:
+    student_subjects = ['Full name', 'Class section', 'Spanish grade', 'English grade', 'Social studies grade', 'Science grade']
+
+    def __init__(self, name):
+        self.name = name
+        self.grades = {}
+
+    def add_grade(self, subject, grade):
+        for grades in self.student_subjects: 
+            self.grades[subject] = grade
 
 
 ''' Displays all students' information. '''
