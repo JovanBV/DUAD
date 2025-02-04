@@ -2,7 +2,7 @@ import menu_1
 
 def main():
     students_list = []
-    path = 'C:/Users/jovan/Documents/DUAD/semana8//students_information.txt'
+    path = 'C:/Users/jovan/Documents/DUAD/semana11//students_information.txt'
     student_headers = ['name', 'class_section', 'spanish_grade', 'english_grade', 
     'social_studies_grade', 'science_grade', 'grades_average']
 
