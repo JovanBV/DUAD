@@ -1,5 +1,5 @@
 import csv
-import main1
+import classes
 
 ''' 
 Exports student data to a CSV file. 
@@ -33,7 +33,7 @@ def import_csv_file(path, students_list):
         if not rows:
             print("\nNo information to import.\n")
         for row in reader:
-            imported_student = main1.Student(row)
+            imported_student = classes.Student(row)
             students_list.append(imported_student)
 
 
