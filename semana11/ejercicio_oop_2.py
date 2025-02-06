@@ -1,9 +1,9 @@
 class Bus:
-    passengers = []
+    
 
     def __init__(self, max_passengers):
         self.max_passengers = max_passengers
-
+        self.passengers = []
 
     def add_passenger(self, person):
         if len(self.passengers) + 1 > self.max_passengers:
@@ -27,13 +27,18 @@ class Person:
 
 
 bus_1 = Bus(2)
+bus_2 = Bus(1)
 person_1 = Person('Jovan')
 person_2 = Person('Alex')
 person_3 = Person('Pablo')
+person_4 = Person('Jovany Vasquez')
+person_5 = Person('Roberto')
 
 bus_1.add_passenger(person_1)
 bus_1.add_passenger(person_2)
 bus_1.add_passenger(person_3)
+bus_2.add_passenger(person_4)
+bus_2.add_passenger(person_5)
 
 
 

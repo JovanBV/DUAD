@@ -27,7 +27,7 @@ def import_csv_file(path, students_list):
     This function imports student data from a CSV file and appends the data to the 
     list of students. It creates Student instances for each row in the CSV file.
     '''
-    with open(path, 'r') as file:
+    with open(path, 'a') as file:
         reader = csv.DictReader(file)
         rows = list(reader)
         if not rows:
