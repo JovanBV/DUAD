@@ -1,5 +1,5 @@
 '''
-This class holds main and general information for all sub-classes, like name and max health
+This class holds main and general information for all subclasses, like name and max health.
 '''
 class Character:
     def __init__(self, name, max_health):
@@ -8,24 +8,25 @@ class Character:
             self.max_health = int(max_health)
         except:
             raise ValueError('Max health must be a numerical value.')
+
 '''
-Thic class holds only warrior traits
+This class holds only warrior traits.
 '''
 class WarriorTraits:
     def __init__(self):
         self.strength = 20
+        
 '''
-This class only holds mage traits
+This class only holds mage traits.
 '''
 class MageTraits:
     def __init__(self):
         self.mana = 50
 
 '''
-This class holds all that general information needed to create a Batte Mage, and also requests name
-and max health
+This class holds all the general information needed to create a Battle Mage, and also requires name
+and max health.
 '''
-
 class BattleMage(Character, WarriorTraits, MageTraits):
     def __init__(self, name, max_health):
         Character.__init__(self, name, max_health)
