@@ -1,3 +1,9 @@
+'''
+This class represents a general bank account with an initial balance of zero.
+It allows users to deposit and withdraw money, but only if the amount is a numerical value.
+Negative balances are allowed.
+'''
+
 class BankAccount:
     balance = 0
 
@@ -9,12 +15,15 @@ class BankAccount:
 
     def withdraw(self, amount):
         try:
-            if self.balance - amount < 0:
-                raise ValueError("Insufficient funds. Withdrawal amount exceeds balance.")
-            else:
-                self.balance -= amount
+            self.balance -= amount
         except:
             raise ValueError("Withdrawal amount must be an integer.")
+
+'''
+This class represents a savings account, which is a subclass of BankAccount.
+Users can deposit money as usual, but withdrawals are restricted:
+the account balance cannot drop below a specified minimum balance.
+'''
 
 class SavingsAccount(BankAccount):
     def __init__(self, min_balance):
