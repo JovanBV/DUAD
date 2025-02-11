@@ -30,10 +30,10 @@ and max health.
 class BattleMage(Character, WarriorTraits, MageTraits):
     def __init__(self, name, max_health):
         super().__init__(name, max_health)
-        WarriorTraits.__init__(self)
-        MageTraits.__init__(self)
+        self.mana = 90
+        self.strength = 40
 
 player_1 = BattleMage('Jovan', '90')
 
 print(player_1.strength)
-print(player_1.max_health)
+print(player_1.strength)
