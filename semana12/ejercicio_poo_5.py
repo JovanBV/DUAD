@@ -29,7 +29,7 @@ and max health.
 '''
 class BattleMage(Character, WarriorTraits, MageTraits):
     def __init__(self, name, max_health):
-        Character.__init__(self, name, max_health)
+        super().__init__(name, max_health)
         WarriorTraits.__init__(self)
         MageTraits.__init__(self)
 
