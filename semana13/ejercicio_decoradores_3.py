@@ -32,7 +32,7 @@ def validate_age(user):
     return user
 
 
-user_1 = User('2009-02-')
+user_1 = User('2009-02-11')
 
 validate_age(user_1)
 
