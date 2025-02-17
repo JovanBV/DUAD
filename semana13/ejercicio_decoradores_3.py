@@ -18,23 +18,23 @@ class User:
 
 
 def verify_if_underage(func):
-    def wrapper(age):
-        func(age)
-        if age <= 18:
-            raise ValueError(f'User is underage: {age} years old.')
+    def wrapper(User):
+        func(User)
+        users_age = User.age
+        if users_age <= 18:
+            raise ValueError(f'User is underage: {users_age} years old.')
         else: 
-            print(f'User is not underage: {age}')
+            print(f'User is not underage: {users_age}')
     return wrapper
-
 
 @verify_if_underage
 def validate_age(user):
     return user
 
 
-user_1 = User('2009-02-11')
+user_1 = User('2009-02-')
 
-validate_age(user_1.age)
+validate_age(user_1)
 
 
 

@@ -3,8 +3,8 @@ numbers = [42, 87, 13, 59, 24, 76, 35, 91, 8, 67]
 def print_and_return(func):
     def wrapper(list):       
         print(list)
-        func(list)
-        print(func(list))
+        result = func(list)
+        print(result)
     return wrapper
 
 
