@@ -1,3 +1,10 @@
+'''
+This one is just something that made me curious to 
+know if it could be done, 
+and it ended up working. 
+'''
+
+
 def bubble_sort(list_to_sort):
     for big_index in range(len(list_to_sort) - 1, 0, -1):
         for index in range(len(list_to_sort) - 1, 0, -1):
