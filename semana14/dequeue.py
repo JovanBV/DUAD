@@ -52,7 +52,7 @@ class Dequeue:
 
         current_node = self.front
         while(current_node is not None):
-            print(current_node.data)
+            print(current_node.data, end=' -> ')
             current_node = current_node.next    
 
 
@@ -62,4 +62,6 @@ third_node = Node(3)
 fourth_node = Node(4)
 
 structure = Dequeue(first_node)
+structure.push_right(second_node)
+structure.pop_right()
 structure.print_structure()
