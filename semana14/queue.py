@@ -22,7 +22,7 @@ class Queue:
 
     def queue(self, node):
         if not self.front:
-            self.front.next = node
+            self.front = node
         else:
             current_node = self.front
             while(current_node.next is not None):
