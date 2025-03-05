@@ -13,7 +13,7 @@ class Queue:
     def print_structure(self):
         current_node = self.front
         while(current_node is not None):
-            print(current_node.data)
+            print(current_node.data, end=' -> ')
             current_node = current_node.next
     
     def dequeue(self):
@@ -21,10 +21,13 @@ class Queue:
             self.front = self.front.next
 
     def queue(self, node):
-        current_node = self.front
-        while(current_node.next is not None):
-            current_node = current_node.next
-        current_node.next = node
+        if not self.front:
+            self.front = node
+        else:
+            current_node = self.front
+            while(current_node.next is not None):
+                current_node = current_node.next
+            current_node.next = node
 
 firts_node = Node('1')
 second_node = Node('2')
