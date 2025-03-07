@@ -65,3 +65,4 @@ structure = Dequeue(first_node)
 structure.push_right(second_node)
 structure.pop_right()
 structure.print_structure()
+
