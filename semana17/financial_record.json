@@ -1,7 +1,128 @@
-{
-    "categorias": ["Alimentación", "Transporte", "Entretenimiento"],
-    "gastos": [
-        {"categoria": "Alimentación", "monto": 20.5, "fecha": "2024-03-17"},
-        {"categoria": "Transporte", "monto": 5.0, "fecha": "2024-03-17"}
+[
+    [
+        "RENT",
+        "GROCERIES",
+        "TRANSPORTATION",
+        "ENTERTAINMENT",
+        "HEALTHCARE",
+        "CAR",
+        "",
+        "GIULI",
+        "  trtrtrt",
+        "sdfsdf"
+    ],
+    [
+        "SALARY",
+        "FREELANCE",
+        "INVESTMENTS",
+        "BONUS",
+        "INTEREST",
+        "GIULIS NEW JOB",
+        "jovan",
+        "234234234"
+    ],
+    [
+        [
+            "CAR TIRES",
+            3000,
+            "CAR",
+            "12-12-2024"
+        ],
+        [
+            "RENT PAYMENT",
+            1200,
+            "RENT",
+            "01-01-2024"
+        ],
+        [
+            "GROCERY SHOPPING",
+            150,
+            "GROCERIES",
+            "05-02-2024"
+        ],
+        [
+            "BUS PASS",
+            50,
+            "TRANSPORTATION",
+            "07-03-2024"
+        ],
+        [
+            "MOVIE NIGHT",
+            25,
+            "ENTERTAINMENT",
+            "10-04-2024"
+        ],
+        [
+            "DOCTOR VISIT",
+            100,
+            "HEALTHCARE",
+            "12-05-2024"
+        ],
+        [
+            "CAR REPAIR",
+            500,
+            "CAR",
+            "15-06-2024"
+        ],
+        [
+            "SUPERMARKET PURCHASE",
+            200,
+            "GROCERIES",
+            "17-07-2024"
+        ],
+        [
+            "GAS REFILL",
+            60,
+            "TRANSPORTATION",
+            "20-08-2024"
+        ],
+        [
+            "CONCERT TICKET",
+            80,
+            "ENTERTAINMENT",
+            "22-09-2024"
+        ],
+        [
+            "PHARMACY EXPENSES",
+            40,
+            "HEALTHCARE",
+            "25-10-2024"
+        ],
+        [
+            "ASDFDSAF",
+            23423423,
+            "SALARY",
+            "20-3-2025"
+        ],
+        [
+            "GIULIS SALARY",
+            1000000,
+            "SALARY",
+            "20-3-2025"
+        ],
+        [
+            "GYUHNUHNU",
+            734567898765,
+            "SALARY",
+            "12-11-2024"
+        ],
+        [
+            "232323322323232",
+            "232323232323",
+            "FREELANCE",
+            "24-3-2025"
+        ],
+        [
+            "SDFSDFSDFS",
+            "12",
+            "SALARY",
+            "24-3-2025"
+        ],
+        [
+            "SFDFGSDFG",
+            "23243243",
+            "BONUS",
+            "24-3-2025"
+        ]
     ]
-}
+]
