@@ -5,7 +5,9 @@
         "TRANSPORTATION",
         "ENTERTAINMENT",
         "HEALTHCARE",
-        "CAR"
+        "CAR",
+        "second rent",
+        "new salary"
     ],
     [
         "SALARY",
@@ -99,24 +101,6 @@
             734567898765,
             "SALARY",
             "12-11-2024"
-        ],
-        [
-            "232323322323232",
-            "232323232323",
-            "FREELANCE",
-            "24-3-2025"
-        ],
-        [
-            "SDFSDFSDFS",
-            "12",
-            "SALARY",
-            "24-3-2025"
-        ],
-        [
-            "SFDFGSDFG",
-            "23243243",
-            "BONUS",
-            "24-3-2025"
         ]
     ]
 ]

@@ -153,9 +153,7 @@ def get_date_popup(window):
         window['-DATE-'].update(formatted_date)
 
 
-# ------------------------ Event Loop ------------------------
-# podria ser que ocupe un run window por ventana
-
+# ------------------------ Event Loop -----------------------
 
 def run_window(window):
     running = True
