@@ -3,7 +3,7 @@ import json
 #--------------------Gestion de archivos--------------------
 
 class JsonData:
-    def __init__(self, path='C:/Users/jovan/Documents/GIT/semana17/financial_record.json'):
+    def __init__(self, path='C:/Users/jovan/Documents/GIT/semana17/financial_records//financial_record.json'):
         self.path = path
         self.data = []
 

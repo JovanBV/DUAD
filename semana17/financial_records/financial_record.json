@@ -24,7 +24,7 @@
         },
         {
             "reason": "Freelance Project",
-            "amount": 2500.50,
+            "amount": 2500.5,
             "category": "Income",
             "date": "2025-03-26",
             "payment_method": "PayPal",
@@ -32,7 +32,7 @@
         },
         {
             "reason": "Monthly Rent",
-            "amount": 1200.00,
+            "amount": 1200.0,
             "category": "Rent",
             "date": "2025-03-01",
             "payment_method": "Bank Transfer",
@@ -40,7 +40,7 @@
         },
         {
             "reason": "Restaurant Dinner",
-            "amount": 75.30,
+            "amount": 75.3,
             "category": "Expense",
             "date": "2025-03-22",
             "payment_method": "Debit Card",
@@ -69,6 +69,12 @@
             "date": "2025-03-05",
             "payment_method": "Direct Debit",
             "notes": "Electricity, water, and internet"
+        },
+        {
+            "reason": "Books",
+            "amount": 10000,
+            "category": "Groceries",
+            "date": "27-3-2025"
         }
     ],
     "income category": [
@@ -81,7 +87,7 @@
     ],
     "outcome category": [
         "Rent",
-        "Groceries", 
+        "Groceries",
         "Utilities",
         "Dining Out",
         "Transportation",
