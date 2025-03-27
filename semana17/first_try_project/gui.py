@@ -1,7 +1,7 @@
 from data_manager import jsonData
 import FreeSimpleGUI as sg
-from handlers import get_date_popup, update_main_table, form_validation, reset_values_to_blank, collect_new_category
-from layout import Layout
+from semana17.first_try_project.handlers import get_date_popup, update_main_table, form_validation, reset_values_to_blank, collect_new_category
+from semana17.first_try_project.first_try_layout import Layout
 
 
 class Windows():
@@ -78,3 +78,8 @@ class Windows():
         layout = Layout(event)
         new_window = Windows(name, layout)
         return new_window
+
+
+
+    # clase tabla (conjunto de lineas) estatica
+    # clase linea de tabla

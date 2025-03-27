@@ -1,106 +1,93 @@
-[
-    [
-        "RENT",
-        "GROCERIES",
-        "TRANSPORTATION",
-        "ENTERTAINMENT",
-        "HEALTHCARE",
-        "CAR",
-        "second rent",
-        "new salary"
+{
+    "movements": [
+        {
+            "reason": "Salary",
+            "amount": 1500.0,
+            "category": "Income",
+            "date": "2025-03-25",
+            "payment_method": "Bank Transfer",
+            "notes": "Monthly salary deposit"
+        },
+        {
+            "reason": "Groceries",
+            "amount": 200.75,
+            "category": "Expense",
+            "date": "2025-03-24",
+            "payment_method": "Credit Card",
+            "notes": "Supermarket shopping"
+        },
+        {
+            "reason": "first salary",
+            "amount": 700000,
+            "category": "Giulis job",
+            "date": "27-3-2025"
+        },
+        {
+            "reason": "Freelance Project",
+            "amount": 2500.50,
+            "category": "Income",
+            "date": "2025-03-26",
+            "payment_method": "PayPal",
+            "notes": "Web design work"
+        },
+        {
+            "reason": "Monthly Rent",
+            "amount": 1200.00,
+            "category": "Rent",
+            "date": "2025-03-01",
+            "payment_method": "Bank Transfer",
+            "notes": "Apartment rent payment"
+        },
+        {
+            "reason": "Restaurant Dinner",
+            "amount": 75.30,
+            "category": "Expense",
+            "date": "2025-03-22",
+            "payment_method": "Debit Card",
+            "notes": "Dinner with friends"
+        },
+        {
+            "reason": "Online Course",
+            "amount": 199.99,
+            "category": "Education",
+            "date": "2025-03-15",
+            "payment_method": "Credit Card",
+            "notes": "Programming course"
+        },
+        {
+            "reason": "Consulting Work",
+            "amount": 3500.75,
+            "category": "Income",
+            "date": "2025-03-20",
+            "payment_method": "Bank Transfer",
+            "notes": "IT consulting services"
+        },
+        {
+            "reason": "Monthly Utilities",
+            "amount": 250.45,
+            "category": "Utilities",
+            "date": "2025-03-05",
+            "payment_method": "Direct Debit",
+            "notes": "Electricity, water, and internet"
+        }
     ],
-    [
-        "SALARY",
-        "FREELANCE",
-        "INVESTMENTS",
-        "BONUS",
-        "INTEREST",
-        "GIULIS NEW JOB"
+    "income category": [
+        "Giulis job",
+        "Freelance",
+        "Consulting",
+        "Salary",
+        "Side Gig",
+        "Investment Returns"
     ],
-    [
-        [
-            "CAR TIRES",
-            3000,
-            "CAR",
-            "12-12-2024"
-        ],
-        [
-            "RENT PAYMENT",
-            1200,
-            "RENT",
-            "01-01-2024"
-        ],
-        [
-            "GROCERY SHOPPING",
-            150,
-            "GROCERIES",
-            "05-02-2024"
-        ],
-        [
-            "BUS PASS",
-            50,
-            "TRANSPORTATION",
-            "07-03-2024"
-        ],
-        [
-            "MOVIE NIGHT",
-            25,
-            "ENTERTAINMENT",
-            "10-04-2024"
-        ],
-        [
-            "DOCTOR VISIT",
-            100,
-            "HEALTHCARE",
-            "12-05-2024"
-        ],
-        [
-            "CAR REPAIR",
-            500,
-            "CAR",
-            "15-06-2024"
-        ],
-        [
-            "SUPERMARKET PURCHASE",
-            200,
-            "GROCERIES",
-            "17-07-2024"
-        ],
-        [
-            "GAS REFILL",
-            60,
-            "TRANSPORTATION",
-            "20-08-2024"
-        ],
-        [
-            "CONCERT TICKET",
-            80,
-            "ENTERTAINMENT",
-            "22-09-2024"
-        ],
-        [
-            "PHARMACY EXPENSES",
-            40,
-            "HEALTHCARE",
-            "25-10-2024"
-        ],
-        [
-            "ASDFDSAF",
-            23423423,
-            "SALARY",
-            "20-3-2025"
-        ],
-        [
-            "GIULIS SALARY",
-            1000000,
-            "SALARY",
-            "20-3-2025"
-        ],
-        [
-            "GYUHNUHNU",
-            734567898765,
-            "SALARY",
-            "12-11-2024"
-        ]
+    "outcome category": [
+        "Rent",
+        "Groceries", 
+        "Utilities",
+        "Dining Out",
+        "Transportation",
+        "Entertainment",
+        "Education",
+        "Healthcare",
+        "Shopping"
     ]
-]
+}

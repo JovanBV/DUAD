@@ -1,11 +1,10 @@
-import FreeSimpleGUI as sg
-from layout import Layout
-from gui import Windows
+from layout import Layout, Window
+from controllers import WindowController
 
 def main():
-    layout = Layout('Main')
-    main_window = Windows('Main', layout)
-    main_window.run_window()
+    main_layout = Layout('Main')
+    main_window = Window('Main', main_layout.layout, finalize=True) 
+    window_controler = WindowController(main_window)
+    window_controler.run_main_window()
 
-if __name__ == "__main__":
-    main()
+main()
