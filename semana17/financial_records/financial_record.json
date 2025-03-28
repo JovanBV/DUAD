@@ -81,6 +81,12 @@
             "amount": 5000,
             "category": "Groceries",
             "date": "28-3-2025"
+        },
+        {
+            "reason": "Ice",
+            "amount": 2000,
+            "category": "Groceries",
+            "date": "28-3-2025"
         }
     ],
     "income category": [
