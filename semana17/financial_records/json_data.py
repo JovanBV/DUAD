@@ -3,8 +3,10 @@ import json
 #--------------------Gestion de archivos--------------------
 
 class JsonData:
-    def __init__(self, path='C:/Users/jovan/Documents/GIT/semana17/financial_records//financial_record.json'):
+    def __init__(self, path=None):
         self.path = path
+        if path == None:
+            self.path = 'C:/Users/jovan/Documents/GIT/semana17/financial_records//financial_record.json'
         self.data = []
 
     def load_file(self):
