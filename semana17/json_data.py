@@ -1,10 +1,8 @@
 import json
 
 class JsonData:
-    def __init__(self, path=None):
+    def __init__(self, path="semana17/financial_record.json"):
         self.path = path
-        if path == None:
-            self.path = 'C:/Users/jovan/Documents/GIT/semana17/financial_records//financial_record.json'
         self.data = []
 
     def load_file(self):
