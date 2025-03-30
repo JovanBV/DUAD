@@ -1,7 +1,7 @@
 import json
 
 class JsonData:
-    def __init__(self, path="semana17/financial_record.json"):
+    def __init__(self, path="financial_record.json"):
         self.path = path
         self.data = []
 
